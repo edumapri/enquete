@@ -1,16 +1,96 @@
 
-
-
-
-
-
-/* Exemplo de apoio
-
 body{
-    background-color: #F5F5F5;
+    background-color: #CCCCCC;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+.container{
+    background: linear-gradient(180deg, #1F0C22 0%, #571557 50%, #641F6F 100%);
+    margin: auto;
+
+    width: 800px;
+
+
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header-title{
+    color: #FECD23;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0.9rem;
+
+}
+
+.subtitulo{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0.9rem;
+}
+
+.texto-superior{
+    margin: 1rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.ilha{
+    height: 300px;
+    background: linear-gradient(180deg, #641F6F 0%, #571557 50%, #1F0C22 100%);
+}
+
+.flex-container{
+    height: 300px;
+    background: linear-gradient(180deg, #641F6F 0%, #571557 50%, #1F0C22 100%);
+    display: flex;
+    justify-content: space-around;     
+    border-radius: 10px;  
+    margin: 1.3rem;
+    align-items: center;
+}
+
+.form-register{
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+
+.texto-rodape{
+    margin: 1rem;
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+}
+
+.col1{
+    background: linear-gradient(180deg, #3D5EEF 0%, #5691F6 50%, #72CCFE 100%);
+    padding: 1.2rem;
+    color: #FFF;
+} 
+
+.col2{
+    background: linear-gradient(180deg, #3D5EEF 0%, #5691F6 50%, #72CCFE 100%);
+    padding: 1.2rem;
+    color: #FFF;  
+}
+
+.col3{
+    background: linear-gradient(180deg, #3D5EEF 0%, #5691F6 50%, #72CCFE 100%);
+    padding: 1.2rem;
+    color: #FFF;
+   
+}
+
+/* Exemplo de apoio
 
 input{
     width: 95%;
@@ -81,12 +161,7 @@ button:hover{
     margin-bottom: 1.2rem;
 }
 
-.header-subtitle{
-    color: #009E9E;
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-bottom: 0.9rem;
-}
+
 
 .col-1{
     background-color: #006a6a;
