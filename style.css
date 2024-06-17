@@ -5,10 +5,12 @@ a{
     font-size: 0.8rem;
 }
 
+/* Elemnto body "corpo" */
 body{
     background-color: #CCCCCC;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 button{
     width: 60%;
