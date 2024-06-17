@@ -20,10 +20,11 @@ body{
 
 .header-title{
     color: #FECD23;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 0.9rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
 
 }
 
@@ -36,7 +37,8 @@ body{
 }
 
 .texto-superior{
-    margin: 1rem;
+    margin: 0.6rem;
+    padding: 1rem;
     font-size: 1rem;
     color: white;
 }
@@ -50,6 +52,7 @@ body{
     height: 300px;
     background: linear-gradient(180deg, #641F6F 0%, #571557 50%, #1F0C22 100%);
     display: flex;
+    flex-direction: column;
     justify-content: space-around;     
     border-radius: 10px;  
     margin: 1.3rem;
@@ -57,7 +60,7 @@ body{
 }
 
 .form-register{
-    padding: 1.2rem;
+    padding: 1.0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,21 +74,26 @@ body{
     text-align: center;
 }
 
+.cols{
+    display: flex;
+    flex-direction: row;
+}
+
 .col1{
     background: linear-gradient(180deg, #3D5EEF 0%, #5691F6 50%, #72CCFE 100%);
-    padding: 1.2rem;
+    margin: 1.2rem;
     color: #FFF;
 } 
 
 .col2{
     background: linear-gradient(180deg, #3D5EEF 0%, #5691F6 50%, #72CCFE 100%);
-    padding: 1.2rem;
+    margin: 1.2rem;
     color: #FFF;  
 }
 
 .col3{
     background: linear-gradient(180deg, #3D5EEF 0%, #5691F6 50%, #72CCFE 100%);
-    padding: 1.2rem;
+    margin: 1.2rem;
     color: #FFF;
    
 }
