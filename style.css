@@ -11,7 +11,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
+/* Elemento buttom */
 button{
     width: 60%;
     padding: 0.5rem 1rem;
@@ -24,6 +24,7 @@ button{
     cursor: pointer;
 }
 
+/* Ação ao estacionar o ponterio do mouse no em um botão */
 button:hover{
     background-color: #641F6F;
 }
@@ -44,6 +45,7 @@ input:focus{
     box-shadow: 0 0 10px #4f62d9;
 }
 
+/* Classe container */
 .container{
     background: linear-gradient(180deg, #1F0C22 0%, #571557 50%, #641F6F 100%);
     margin: auto;
@@ -53,6 +55,7 @@ input:focus{
     overflow: hidden;
 }
 
+/* Classe */
 .header{
     padding: 0.9rem;
 }
@@ -118,9 +121,12 @@ input:focus{
     text-align: center;
 }
 
+
+
 .cols{
     margin-top: 0.3rem;
     display: flex;
+    /* As classe .col1, 2 e 3 serão posicionados em linha */
     flex-direction: row;
 }
 
@@ -172,13 +178,10 @@ input:focus{
     }
 
     .col1, .col2, .col3{
-        width: 100%;
-
-        
+        width: 100%;        
         box-sizing: border-box;
     }
 
- 
     .container{
         width: 95%;
     }
